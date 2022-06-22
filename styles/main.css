@@ -1,0 +1,130 @@
+
+body{
+  
+    background-color: rgb(36, 36, 36);
+}
+.foot {
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  margin-top:auto; 
+  margin-bottom: 10px;
+   text-align: center;
+   font-size: 1rem;
+   border-top: 1px solid hsla(0,0%,100%,0.1);
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-top: 20px;
+   color: #fff;
+   padding: 13px 13px;
+ }
+.nav {
+   margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid hsla(0,0%,100%,0.1);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 13px;
+    color: #fff;
+    margin-right: 5px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-link:hover {
+    text-decoration:none;
+    color: #343a40;
+    background-color: #38d9a9;
+    border-bottom: 2px solid #c3fae8;
+  }
+  .nav-link.current {
+    border-bottom: 2px solid #38d9a9;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  h1{
+    font-size: 2.25rem;
+    width:fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+  }
+  h2{
+    width:fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    
+}
+  P1{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    font-weight: bold;
+  }
+  
+  h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .review{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 50%;
+    text-align: center;
+   
+    margin-left: auto;
+    margin-right: auto; 
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    
+  }
+  #randomQuote{
+    padding-top: 5px;
+    
+    height: fit-content !important;
+    word-wrap: break-word !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+    width: 99% !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    background-color: rgb(179, 179, 179);
+    background-clip: padding-box;
+    border-radius: .25rem;
+    border: transparent;
+  }
